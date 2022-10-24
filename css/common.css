@@ -22,3 +22,5 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery-item{display: grid;justify-content: center; padding-top: 10px;}
+.gallery-item-img{border-style: solid;border-color:red; border-radius: 5%;}
