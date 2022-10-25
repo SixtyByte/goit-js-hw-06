@@ -11,7 +11,7 @@ function handleSubmit(event) {
   if (email.value === "" || password.value === "") {
     return alert("Заповни поля");
   }
-
-  console.log (`email: ${email.value}, password: ${password.value}`);
+  const result={email:email.value, password:password.value}
+  console.log (result);
   event.currentTarget.reset();
 }
