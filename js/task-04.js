@@ -10,6 +10,7 @@ minusButton.addEventListener(`click`,handleMinusClick)
 
 
 function handlePlusClick() {clickMetr.textContent=`${counterValue}`;
-counterValue+=1
+counterValue+=1;
 }
-function handleMinusClick(){clickMetr.textContent=`${counterValue}`;counterValue-=1}
+function handleMinusClick(){clickMetr.textContent=`${counterValue}`;counterValue-=1;}
+
