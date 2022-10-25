@@ -6,7 +6,6 @@ console.log(colorText.textContent)
 magicButton.addEventListener(`click`, clickmagic);
 function clickmagic(){
 const colorGen = getRandomHexColor();
-
 document.body.setAttribute('style', `background-color:${colorGen}`)
 colorText.textContent=colorGen
 }
